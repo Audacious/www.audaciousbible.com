@@ -1,0 +1,132 @@
+
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%;   margin: 50px 0 50 0px;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #333;
+    background: #5FB8F3;
+    font-size: 0.9em;
+    overflow-x: hidden;
+
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.main {
+	margin-top: 50px;
+	min-width: 820px;
+}
+.main > p {
+	font-weight: 300;
+	font-size: 1.1em;
+	color: #999;
+	text-align: center;
+	padding: 2em;
+}
+
+.features {
+	font-weight: 400;
+	margin-top: 100px;
+	background-color: #FCF8F8;
+	padding-top: 100px;
+	padding-left: 190px;
+	padding-right: 190px;
+	min-width: 820px;
+}
+
+.quotes {
+	/*background-color: #68c39f;*/
+	background-color: #FCF8F8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 190px;
+	padding-right: 190px;
+	min-width: 820px;
+
+}
+
+.features h2{
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.5em;
+	line-height: 1.2em;
+	color: #333;
+}
+
+#footer{
+	background-color: #333;
+	height: 60px;
+	padding-top: 24px;
+	color: white;
+}
+
+#footer a{
+	height: 60px;
+	padding-top: 24px;
+	color: rgb(90, 222, 255);
+}
+
+#rolling_quotes li{
+	width: 90%;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.5em;
+	line-height: 1.2em;
+	color: #333;
+}
+#rolling_quotes li .quote-cite{
+	color: #5FB8F3;
+	font-weight: 700;
+	font-size: 0.6em;
+	line-height: 1.7em;
+	text-transform: none;
+}
+.plm{
+	padding-left: 10px;
+}
